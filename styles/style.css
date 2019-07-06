@@ -1,0 +1,109 @@
+.container {
+  display: flex;
+	flex-direction: column;
+}
+
+body {
+	background-image: url('../resources/fut.jpg');
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+
+.header {
+  height: 100px;
+}
+
+.warning {
+	height: 32px;
+}
+
+.warningMsg {
+	margin: 0;
+  font-family: 'Orbitron', 'sans-serif';
+	font-size: 20px;
+	text-align: center;
+	color: #51f542;
+}
+
+
+.calculator-container {
+  display: inline-block;
+	margin: 0 auto;
+}
+
+.calculator-case {
+  display: flex;
+  flex-direction: column;
+	height: 500px;
+	width: 400px;
+	background-color: #222629;
+	border-radius: 8px;
+	box-shadow: #474B4F 1px 1px 0,
+              #474B4F 2px 2px 0,
+              #474B4F 3px 3px 0,
+              #474B4F 4px 4px 0,
+              #474B4F 5px 5px 0,
+              #474B4F 6px 6px 0,
+              #474B4F 7px 7px 0,
+              #474B4F 8px 8px 0,
+              #474B4F 9px 9px 0,
+              #474B4F 10px 10px 0
+}
+
+.screen-panel {
+	display: flex;
+	height: 145px;
+	width: 400px;
+	align-content: center;
+	justify-content: center;
+}
+
+.digi-screen, input {
+	display: flex;
+	margin: auto;
+	height: 75px;
+	width: 300px;
+	background-color: rgba(0,0,0,.6);
+	font-family:  'Orbitron', sans-serif;
+	font-size: 30px;
+	color: #51f542;
+}
+
+.divider {
+	display: inline-block;
+	height: 25px;
+	width: 400px;
+	background-color: #86C232;
+}
+
+.divLabel {
+	margin: 4px 4px 4px 4px;
+	font-family:  'Orbitron', sans-serif;
+	text-align: right;
+}
+
+.button-panel {
+  display: flex;
+  flex-direction: row;
+	height: 350px;
+	width: 400px;
+}
+
+.number-panel {
+  display: flex;
+  flex-direction: column;
+	height: 340px;
+	width: 225px;
+	//background-color: rgba(0,0,120,.3);
+}
+
+.operation-panel {
+  display: flex;
+  flex-direction: column;
+	height: 340px;
+	width: 175px;
+}
+
+

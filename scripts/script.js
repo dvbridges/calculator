@@ -128,7 +128,7 @@ var createButton = function(n=0) {
 	btn.style.fontFamily = "Orbitron, sans serif";
 	btn.style.borderWidth = "2px";
 	btn.style.borderColor = "#86C232"
-	btn.style.color = "222629";
+	btn.style.color = "black";
 	btn.style.outline = "0";
 	btn.textContent = n;
 	btn.value = n;

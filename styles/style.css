@@ -96,12 +96,11 @@ body {
   flex-direction: column;
 	height: 340px;
 	width: 225px;
-	//background-color: rgba(0,0,120,.3);
 }
 
 .operation-panel {
   display: flex;
-  flex-direction: column;
+	flex-direction: column;
 	height: 340px;
 	width: 175px;
 }

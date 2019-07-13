@@ -1,10 +1,10 @@
 .container {
   display: flex;
-	flex-direction: column;
+ flex-direction: column;
 }
 
 body {
-	background-image: url('../resources/fut.jpg');
+ background-image: url('../resources/fut.jpg');
   background-repeat: repeat;
   background-attachment: fixed;
   background-position: center;
@@ -16,31 +16,31 @@ body {
 }
 
 .warning {
-	height: 32px;
+ height: 32px;
 }
 
 .warningMsg {
-	margin: 0;
+ margin: 0;
   font-family: 'Orbitron', 'sans-serif';
-	font-size: 20px;
-	text-align: center;
-	color: #51f542;
+ font-size: 20px;
+ text-align: center;
+ color: #51f542;
 }
 
 
 .calculator-container {
   display: inline-block;
-	margin: 0 auto;
+ margin: 0 auto;
 }
 
 .calculator-case {
   display: flex;
   flex-direction: column;
-	height: 500px;
-	width: 400px;
-	background-color: #222629;
-	border-radius: 8px;
-	box-shadow: #474B4F 1px 1px 0,
+ height: 500px;
+ width: 400px;
+ background-color: #222629;
+ border-radius: 8px;
+ box-shadow: #474B4F 1px 1px 0,
               #474B4F 2px 2px 0,
               #474B4F 3px 3px 0,
               #474B4F 4px 4px 0,
@@ -53,56 +53,56 @@ body {
 }
 
 .screen-panel {
-	display: flex;
-	height: 145px;
-	width: 400px;
-	align-content: center;
-	justify-content: center;
+ display: flex;
+ height: 145px;
+ width: 400px;
+ align-content: center;
+ justify-content: center;
 }
 
 .digi-screen, input {
-	display: flex;
-	margin: auto;
-	height: 75px;
-	width: 300px;
-	background-color: rgba(0,0,0,.6);
-	font-family:  'Orbitron', sans-serif;
-	font-size: 30px;
-	color: #51f542;
+ display: flex;
+ margin: auto;
+ height: 75px;
+ width: 300px;
+ background-color: rgba(0,0,0,.6);
+ font-family:  'Orbitron', sans-serif;
+ font-size: 30px;
+ color: #51f542;
 }
 
 .divider {
-	display: inline-block;
-	height: 25px;
-	width: 400px;
-	background-color: #86C232;
+ display: inline-block;
+ height: 25px;
+ width: 400px;
+ background-color: #86C232;
 }
 
 .divLabel {
-	margin: 4px 4px 4px 4px;
-	font-family:  'Orbitron', sans-serif;
-	text-align: right;
+ margin: 4px 4px 4px 4px;
+ font-family:  'Orbitron', sans-serif;
+ text-align: right;
 }
 
 .button-panel {
   display: flex;
   flex-direction: row;
-	height: 350px;
-	width: 400px;
+ height: 350px;
+ width: 400px;
 }
 
 .number-panel {
   display: flex;
   flex-direction: column;
-	height: 340px;
-	width: 225px;
+ height: 340px;
+ width: 225px;
 }
 
 .operation-panel {
   display: flex;
-	flex-direction: column;
-	height: 340px;
-	width: 175px;
+ flex-direction: column;
+ height: 340px;
+ width: 175px;
 }
 
 
